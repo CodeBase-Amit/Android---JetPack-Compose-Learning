@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.AccessStringResource
 import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.Greeting
 import com.example.jetpackcomposelearning.`3_CoreComponents`.AnnotatedStringwithListenerSample
+import com.example.jetpackcomposelearning.`3_CoreComponents`.FilledButtonSample
 import com.example.jetpackcomposelearning.`3_CoreComponents`.PartiallySelectableText
 import com.example.jetpackcomposelearning.ui.theme.JetpackComposeLearningTheme
 
@@ -25,8 +26,8 @@ class MainActivity : ComponentActivity() {
             JetpackComposeLearningTheme {
 
 //                PartiallySelectableText()
-                AnnotatedStringwithListenerSample()
-
+//                AnnotatedStringwithListenerSample()
+                FilledButtonSample()
 
             }
         }
