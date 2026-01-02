@@ -16,6 +16,7 @@ import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.Greeting
 import com.example.jetpackcomposelearning.`3_CoreComponents`.AnnotatedStringwithListenerSample
 import com.example.jetpackcomposelearning.`3_CoreComponents`.FilledButtonSample
 import com.example.jetpackcomposelearning.`3_CoreComponents`.PartiallySelectableText
+import com.example.jetpackcomposelearning.`5_BottomSheet`.PartialBottomSheet
 import com.example.jetpackcomposelearning.ui.theme.JetpackComposeLearningTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,8 +28,8 @@ class MainActivity : ComponentActivity() {
 
 //                PartiallySelectableText()
 //                AnnotatedStringwithListenerSample()
-                FilledButtonSample()
-
+//                FilledButtonSample()
+                PartialBottomSheet()
             }
         }
     }
