@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.jetpackcomposelearning.`11_Menus`.DropDownMenuExample
 import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.AccessStringResource
 import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.Greeting
 import com.example.jetpackcomposelearning.`3_CoreComponents`.AnnotatedStringwithListenerSample
@@ -31,7 +32,8 @@ class MainActivity : ComponentActivity() {
 //                AnnotatedStringwithListenerSample()
 //                FilledButtonSample()
 //                PartialBottomSheet()
-                CheckBoxExample()
+//                CheckBoxExample()
+                DropDownMenuExample()
             }
         }
     }
