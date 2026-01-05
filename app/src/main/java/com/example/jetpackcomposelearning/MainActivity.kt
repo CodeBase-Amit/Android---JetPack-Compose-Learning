@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpackcomposelearning.`11_Menus`.DropDownMenuExample
 import com.example.jetpackcomposelearning.`22_DatePicker`.DatePickerExample
 import com.example.jetpackcomposelearning.`23_TimePicker`.TimePickerExample
+import com.example.jetpackcomposelearning.`24_BottomNavBar`.BottomNavigationBar
 import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.AccessStringResource
 import com.example.jetpackcomposelearning.`2_FundamentalConcepts`.Greeting
 import com.example.jetpackcomposelearning.`3_CoreComponents`.AnnotatedStringwithListenerSample
@@ -37,7 +38,8 @@ class MainActivity : ComponentActivity() {
 //                CheckBoxExample()
 //                DropDownMenuExample()
 //                DatePickerExample()
-                TimePickerExample()
+//                TimePickerExample()
+                BottomNavigationBar()
             }
         }
     }
